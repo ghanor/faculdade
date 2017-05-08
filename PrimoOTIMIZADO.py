@@ -8,7 +8,7 @@ while x < num_dig:
     teste = num_dig % i
     if teste == 0:
         primo = False
-        break
+        break #otimiza o código
     i = i + 1
     x = x + 1
 
